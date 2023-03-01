@@ -19,6 +19,7 @@ import Counter from "./components/Lsp/Counter";
 import User from "./components/Hooks/User";
 import Themes from "./components/Hooks/Themes";
 import { VideoRef } from "./components/Refs-ForwardRef/VideoPlayer";
+import MyApp from "./components/Hooks/PanelContext";
 
 
 
@@ -50,6 +51,7 @@ function App() {
       <br/>
       <User/>
       <Themes/>
+      <MyApp/>
     </div>
   );
 }
