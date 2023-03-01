@@ -18,7 +18,7 @@ const ThemeContext = createContext(Theme.light)
 const Themes = () => {
     return (
         <div>
-            <ThemeContext.Provider value={Theme.dark}>
+            <ThemeContext.Provider value={Theme.light}>
                  <Toolbar/>
             </ThemeContext.Provider>
         </div>
