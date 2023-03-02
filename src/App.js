@@ -25,6 +25,7 @@ import AgeReducer from "./components/Hooks/AgeReducer";
 import { PositionTracker } from "./components/render-props/TaskRender";
 import EditableItem from "./components/Hooks/EditableItem";
 import EditableRender from "./components/render-props/EditableRender";
+import CountryLsp from "./components/Lsp/CountryLsp";
 
 
 
@@ -39,10 +40,10 @@ function App() {
       <EIndex/>
       <CRIndex/>
       <FIndex/>
-      <hr/>
+      <br/>
       <HookContext/>
       <ConsumerContext/>
-      <hr/>
+      <br/>
       <ForwardRef ref={ref}>Click Me</ForwardRef>
       <br/>
       <InputRef/>
@@ -57,14 +58,15 @@ function App() {
       <br/>
       <User/>
       <Themes/>
-      <hr/>
+      <br/>
       <MyApp/>
-      <hr/>
+      <br/>
       <Reducer/>
       <AgeReducer/>
       <PositionTracker/>
       <EditableItem/> 
       <EditableRender/>
+      <CountryLsp/>
       
     </div>
   );
