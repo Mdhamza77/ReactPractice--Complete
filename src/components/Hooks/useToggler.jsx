@@ -6,9 +6,7 @@ const useToggler = (initialState) => {
     const [toggler ,setIsToggler] = useState(initialState)
 
      const Toggler = ()=> setIsToggler(!toggler)
-     useEffect(() =>{
-        Toggler()
-     },[Toggler])
+    
     return [toggler,Toggler]
 }
 

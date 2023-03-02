@@ -3,7 +3,7 @@ import { useState } from "react";
 import useToggler from "./useToggler";
 const EditableItem = ({ label, initialState }) => {
   const [value, setValue] = useState(initialState);
-  const [toggler, setIsToggler] = useState(false);
+  const [toggler, setIsToggler] = useToggler(false);
 
   
   return (
