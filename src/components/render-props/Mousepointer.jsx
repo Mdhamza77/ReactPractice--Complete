@@ -4,8 +4,8 @@ class Mousepointer extends Component {
     constructor(props){
         super(props)
         this.state = {
-            x : 0 ,
-            y : 0 
+            x : 10 ,
+            y : 20 
         }
         this.handleMouse = this.handleMouse.bind(this) ;
     }

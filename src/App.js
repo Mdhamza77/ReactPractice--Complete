@@ -22,6 +22,9 @@ import { VideoRef } from "./components/Refs-ForwardRef/VideoPlayer";
 import MyApp from "./components/Hooks/PanelContext";
 import Reducer from "./components/Hooks/Reducer";
 import AgeReducer from "./components/Hooks/AgeReducer";
+import { PositionTracker } from "./components/render-props/TaskRender";
+import EditableItem from "./components/Hooks/EditableItem";
+
 
 
 
@@ -58,6 +61,9 @@ function App() {
       <hr/>
       <Reducer/>
       <AgeReducer/>
+      <PositionTracker/>
+      <EditableItem/>
+      
     </div>
   );
 }
