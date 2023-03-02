@@ -8,13 +8,14 @@ const EditableItem = ({ label, initialState }) => {
   
   return (
     <div>
-      {value ? (
+      {toggler ? (
         <label>
           {label}
           <input
+           placeholder="Custom Hooks"
             type="text"
             value={value}
-            onClick={(e) => setValue(e.target.value)}
+            onChange={(e) => setValue(e.target.value)}
           />
         </label>
       ) : (

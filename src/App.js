@@ -24,6 +24,7 @@ import Reducer from "./components/Hooks/Reducer";
 import AgeReducer from "./components/Hooks/AgeReducer";
 import { PositionTracker } from "./components/render-props/TaskRender";
 import EditableItem from "./components/Hooks/EditableItem";
+import EditableRender from "./components/render-props/EditableRender";
 
 
 
@@ -62,7 +63,8 @@ function App() {
       <Reducer/>
       <AgeReducer/>
       <PositionTracker/>
-      <EditableItem/>
+      <EditableItem/> 
+      <EditableRender/>
       
     </div>
   );
