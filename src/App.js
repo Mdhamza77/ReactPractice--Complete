@@ -26,6 +26,7 @@ import { PositionTracker } from "./components/render-props/TaskRender";
 import EditableItem from "./components/Hooks/EditableItem";
 import EditableRender from "./components/render-props/EditableRender";
 import CountryLsp from "./components/Lsp/CountryLsp";
+import LoginForm from "./components/foms/LoginForm";
 
 
 
@@ -66,7 +67,8 @@ function App() {
       <PositionTracker/>
       <EditableItem/> 
       <EditableRender/>
-      <CountryLsp/>
+      <CountryLsp/> 
+      <LoginForm/>
       
     </div>
   );
