@@ -14,7 +14,7 @@ const VideoPlayer = forwardRef(({ src, type, width }, ref) => {
 
 export const VideoRef = () => {
   const ref = useRef(null);
-
+  console.log(ref)
   return (
     <>
     <br/>
