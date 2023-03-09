@@ -12,7 +12,8 @@ const Drinks = ({ name }) => {
     return null 
   }
   return (
-    <div>
+    <div> 
+        
         <h1>{name}</h1>
       <dl>
          <dt>Part of Drinks</dt>

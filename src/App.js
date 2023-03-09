@@ -27,6 +27,7 @@ import EditableItem from "./components/Hooks/EditableItem";
 import EditableRender from "./components/render-props/EditableRender";
 import CountryLsp from "./components/Lsp/CountryLsp";
 import LoginForm from "./components/foms/LoginForm";
+import InputChange from "./components/Lsp/InputChange";
 
 
 
@@ -69,6 +70,7 @@ function App() {
       <EditableRender/>
       <CountryLsp/> 
       <LoginForm/>
+      <InputChange/>
       
     </div>
   );
