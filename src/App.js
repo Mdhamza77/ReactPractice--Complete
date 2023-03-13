@@ -30,6 +30,7 @@ import LoginForm from "./components/foms/LoginForm";
 import InputChange from "./components/Lsp/InputChange";
 import { Names } from "./components/render-props/NameRender";
 import AudioPlayer from "./components/Refs-ForwardRef/AudioPlayer";
+import MultimediaContext from "./components/Hooks/MultimediaContext";
 
 
 
@@ -75,6 +76,7 @@ function App() {
       <InputChange/>
       <Names/>
       <AudioPlayer/>
+      <MultimediaContext/>
       
     </div>
   );
