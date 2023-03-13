@@ -1,13 +1,13 @@
 import React from 'react';
 
-const NameHoc = ({name}) => {
-    return <p>Hello {name}</p>
+const NameHoc = ({name , age}) => {
+    return <p>Hello My Name : {name} is age {age}</p>
 }
 
 const hoc = (Wrapped) => {
     return class NameHoc extends React.Component {
         render() {
-            return  <Wrapped name="King Maker"  />
+            return  <Wrapped name="Muhammed Hamza"  age="22"/>
         }
     }
     

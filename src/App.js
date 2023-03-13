@@ -28,6 +28,8 @@ import EditableRender from "./components/render-props/EditableRender";
 import CountryLsp from "./components/Lsp/CountryLsp";
 import LoginForm from "./components/foms/LoginForm";
 import InputChange from "./components/Lsp/InputChange";
+import { Names } from "./components/render-props/NameRender";
+import AudioPlayer from "./components/Refs-ForwardRef/AudioPlayer";
 
 
 
@@ -71,6 +73,8 @@ function App() {
       <CountryLsp/> 
       <LoginForm/>
       <InputChange/>
+      <Names/>
+      <AudioPlayer/>
       
     </div>
   );
